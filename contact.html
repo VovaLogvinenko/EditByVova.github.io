@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/router.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header class="header contact-header">
+            <div class="container nav-bar">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav>
+                <ul class="nav">
+                    <li><a href="index.html" class="gradient-link" data-link>Home</a></li>
+                    <li><a href="index.html#Projects" class="gradient-link" data-link>Projects</a></li>
+                    <li><a href="index.html#About" class="gradient-link" data-link>About</a></li>
+                    <li><a href="contact.html" class="gradient-link" data-link>Contact</a></li>
+                </ul>
+                    <div class="nav-bg"></div>
+                </nav>
+            </div>
+                <div class="contact-container">
+                <h1>Let’s work together</h1>
+                <p class="subtitle">Have a project or collaboration in mind? Let's connect.</p>
+
+                <form action="https://formspree.io/f/xyzjlbdy" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+
+                <div class="socials">
+                    <a href="https://t.me/Lun_motion" title="Telegram" target="_blank"><img src="Assets/Images/telegram.png" alt="telegram" class="telegram"></a>
+                    <!-- <a href="https://instagram.com/yourusername" target="_blank">Instagram</a> -->
+                </div>
+                </div>
+        </header>
+    </div>
+    <div id="page-loader" class="page-loader hidden">
+        <div id="lottie-loader"></div>
+    </div>
+
+</body>
+</html>

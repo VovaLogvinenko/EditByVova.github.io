@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Editor Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="js/router.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <header class="header" id="Home">
+      <div class="nav-bar">
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav>
+          <ul class="nav">
+            <li><a href="index.html#Home" class="gradient-link" data-link="">Home</a></li>
+            <li><a href="index.html#Projects" class="gradient-link" data-link>Projects</a></li>
+            <li><a href="index.html#About" class="gradient-link" data-link>About</a></li>
+            <li><a href="contact.html" class="gradient-link" data-link>Contact</a></li>
+          </ul>
+          <div class="nav-bg"></div>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="hero-image">
+          <img src="assets/my photo/gray4.png" class="desctop-photo"alt="My photo :D" draggable="false" oncontextmenu="return false;">
+          <div class="circle-wrapper">
+            <img src="assets/my photo/gray4.png" class="mobile-photo" alt="My photo :D" draggable="false" oncontextmenu="return false;">
+          </div>
+        </div>
+        <div class="hero-text">
+          <p class="greeting">Hello I'm Vova</p>
+          <h1>Video Editor</h1>
+          <p class="hero-text__p">In life, I choose things that carry meaning, care, and quality - whether it's food or a T-shirt. Same with video: if your product has soul and value behind it, I'll gladly highlight it through editing, color, and sound.</p>
+          <div class="softwares">
+            <h2 class="softwares__h3">Softwares</h2>
+            <div class="softwares-block">
+              <div href="#" class="icon-link">
+                <img src="assets/svg/davinci.svg" title="DaVinci Resolve" alt="DaVinci Resolve" class="icon">
+              </div>
+              <div href="#" class="icon-link">
+                <img src="assets/svg/ae.svg" title="After Effects" alt="After Effects" class="icon">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="gray-block" id="About"></div>
+
+    <section class="experience container">
+      <div class="years">1<span>Year Experience</span></div>
+      <div class="stats">
+        <div><span class="number">4</span><br>Clients</div>
+        <div><span class="number">133+</span><br>Hours of Edited Content</div>
+        <div><span class="number">35</span><br>Completed Projects</div>
+        <div><span class="number">5</span><br>Average pace: video/week</div>
+      </div>
+    </section>
+
+    <section class="projects container" id="Projects">
+      <div class="project__h2">
+        <h2>Featured Projects</h2>
+        <!-- <a href="#" class="btn">View ALL</a> -->
+      </div>
+      <div class="project-grid">
+        
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="uyOvfzflka0">
+              <img src="https://img.youtube.com/vi/uyOvfzflka0/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+
+          <h3 class="project-card__h3">Umedia video 4/5</h3>
+          <div class="project-card__button"><a href="#" data-project="project1">Know more</a></div>
+        </div>
+        
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="Je7Mc7h1PIg">
+              <img src="https://img.youtube.com/vi/Je7Mc7h1PIg/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+
+          <h3 class="project-card__h3">Umedia 1 video</h3>
+          <div class="project-card__button"><a href="#" data-project="project2">Know more</a></div>
+        </div>
+        
+
+        <!-- <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="CG8ucav19Ew">
+              <img src="https://img.youtube.com/vi/CG8ucav19Ew/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+          <h3 class="project-card__h3">RØNIN - ALL GIRLS ARE THE SAME</h3>
+          <div class="project-card__button"><a href="#" data-project="project3">Know more</a></div>
+        </div>
+
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="5XTyzdEaqf0">
+              <img src="https://img.youtube.com/vi/5XTyzdEaqf0/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+          <h3 class="project-card__h3">SQWOZ BAB, AUM RAA — KARATE</h3>
+          <div class="project-card__button"><a href="#" data-project="project4">Know more</a></div>
+        </div>
+
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="yvFSPqT2Jac">
+              <img src="https://img.youtube.com/vi/yvFSPqT2Jac/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+          <h3 class="project-card__h3">Domoy v parij</h3>
+          <div class="project-card__button"><a href="#" data-project="project5">Know more</a></div>
+        </div>
+
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="mR06wVknTTM">
+              <img src="https://img.youtube.com/vi/mR06wVknTTM/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+          <h3 class="project-card__h3">Where is my mind</h3>
+          <div class="project-card__button"><a href="#" data-project="project6">Know more</a></div>
+        </div>
+
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="CG8ucav19Ew">
+              <img src="https://img.youtube.com/vi/CG8ucav19Ew/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+          <h3 class="project-card__h3">RØNIN - ALL GIRLS ARE THE SAME</h3>
+          <div class="project-card__button"><a href="#" data-project="project7">Know more</a></div>
+        </div>
+
+        <div class="project">
+          <div class="project-card">
+            <div class="youtube-placeholder" data-video-id="5XTyzdEaqf0">
+              <img src="https://img.youtube.com/vi/5XTyzdEaqf0/hqdefault.jpg" alt="Preview">
+              <button class="play-btn">▶</button>
+            </div>
+          </div>
+          <h3 class="project-card__h3">SQWOZ BAB, AUM RAA — KARATE</h3>
+          <div class="project-card__button"><a href="#" data-project="project8">Know more</a></div>
+        </div>
+       -->
+    </section>
+    <!-- <div class="view-all-mobile-wrapper mobile-container">
+      <a href="#" class="btn view-all-btn view-all-btn--mobile">View ALL</a>
+    </div> -->
+
+
+    <section class="know-more__block">
+      <div class="know-more__scroll">
+        <div class="know-more__block-header">
+          <div class="know-more__block-h1-block">
+            <h1 class="know-more__block-h1">Hello</h1>
+            <div class="know-more__block-button close-btn" aria-label="Close">
+              <span></span>
+              <span></span>
+          </div>
+          </div>
+        </div>
+        <div class="know-more__block-body">
+          <div class="know-more__block-description">
+            <h4 class="know-more__block-description-h4">Project description</h5>
+            <p class="know-more__block-description-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur, adipisci nisi quos fugit asperiores tenetur sed fuga sequi, facilis sit perferendis veniam sunt dicta consequuntur tempora neque omnis maxime?</p>
+          </div>
+          <div class="know-more__block-images">
+            <div class="know-more__block-video">
+              <div id="video-loader" class="video-loader"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="know-more__behind"></div>
+
+    <section class="cta container">
+      <div>
+        <h2>Let’s work together on your next project</h2>
+        <p>You bring the idea - I’ll shape the rhythm, color, and emotion.</p>
+      </div>
+      <a href="contact.html" class="btn" data-link>Contact</a>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="index.html#Home" data-link>Home</a>
+        <a href="index.html#Projects" data-link>Projects</a>
+        <a href="index.html#About" data-link>About</a>
+        <a href="contact.html" data-link>Contact</a>
+      </div>
+    </footer>
+  </div>
+  <div id="page-loader" class="page-loader hidden">
+    <div id="lottie-loader"></div>
+  </div>
+
+</body>
+</html>
